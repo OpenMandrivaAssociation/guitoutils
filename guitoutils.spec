@@ -6,6 +6,11 @@ Source0:	v%{version}.tar.gz
 URL:		www.guitoalmeida.com.br
 Group:		System/Base
 License:	GPLv3+
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	help2man
 
 %description
